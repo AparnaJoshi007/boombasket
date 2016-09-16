@@ -1,0 +1,140 @@
+[
+  {
+    "Name": "MIG21",
+    "Price": "900"
+  },
+  {
+    "Name": "MIG21-Body",
+    "Price": "300"
+  },
+  {
+    "Name": "MIG21-Wings",
+    "Price": "200"
+  },
+  {
+    "Name": "MIG21-Ailerons",
+    "Price": "50"
+  },
+   {
+    "Name": "MIG21-Flaps",
+    "Price": "50"
+  },
+  {
+    "Name": "MIG21-Verticalstabilizer",
+    "Price": "150"
+  },
+  {
+    "Name": "MIG21-Horizontalstabilizer",
+    "Price": "150"
+  },
+    {
+    "Name": "Kiran",
+    "Price": "1300"
+  },
+  {
+    "Name": "Kiran-Body",
+    "Price": "300"
+  },
+  {
+    "Name": "Kiran-Wings",
+    "Price": "200"
+  },
+  {
+    "Name": "Kiran-Ailerons",
+    "Price": "50"
+  },
+   {
+    "Name": "Kiran-Flaps",
+    "Price": "50"
+  },
+  {
+    "Name": "Kiran-Verticalstabilizer",
+    "Price": "150"
+  },
+  {
+    "Name": "Kiran-Horizontalstabilizer",
+    "Price": "150"
+  },  {
+    "Name": "Canberra",
+    "Price": "1300"
+  },
+  {
+    "Name": "Canberra-Body",
+    "Price": "500"
+  },
+  {
+    "Name": "Canberra-Wings",
+    "Price": "300"
+  },
+   {
+    "Name": "Canberra-Flaps",
+    "Price": "50"
+  },
+  {
+    "Name": "Canberra-Ailerons",
+    "Price": "50"
+  },
+  {
+    "Name": "Canberra-Verticalstabilizer",
+    "Price": "250"
+  },
+  {
+    "Name": "Canberra-Horizontalstabilizer",
+    "Price": "150"
+  },  {
+    "Name": "Pushpak",
+    "Price": "1150"
+  },
+  {
+    "Name": "Pushpak-Body",
+    "Price": "350"
+  },
+  {
+    "Name": "Pushpak-Wings",
+    "Price": "200"
+  },
+  {
+    "Name": "Pushpak-Ailerons",
+    "Price": "200"
+  },
+   {
+    "Name": "Pushpak-Flaps",
+    "Price": "150"
+  },
+  {
+    "Name": "Pushpak-Verticalstabilizer",
+    "Price": "100"
+  },
+  {
+    "Name": "Pushpak-Horizontalstabilizer",
+    "Price": "150"
+  },
+  {
+    "Name": "Dhruv",
+    "Price": "1350"
+  },
+  {
+    "Name": "Dhruv-Body",
+    "Price": "400"
+  },
+    {
+    "Name": "Dhruv-Mainrotor",
+    "Price": "300"
+  },
+    {
+    "Name": "Dhruv-Tailrotor",
+    "Price": "200"
+  },
+    {
+    "Name": "Dhruv-Rotormast",
+    "Price": "150"
+  },
+    {
+    "Name": "Dhruv-Cockpit",
+    "Price": "100"
+  },
+    {
+    "Name": "Dhruv-Skids",
+    "Price": "100"
+  }
+]
