@@ -195,7 +195,7 @@ function addaircraft(){
 function addtomydb(){
 	$hostname="localhost"; 
 	$username="root"; 
-	$password=""; 
+	$password="boom"; 
 	$database="boom";
 	$random=$_SESSION['random'];
 	$email=$_SESSION['email'];
@@ -308,7 +308,7 @@ function mycart(){
 function mychecklogin(){
 	$hostname="localhost"; 
 	$username="root"; 
-	$password=""; 
+	$password="boom"; 
 	$database="boom";
 	  
 	$con=mysqli_connect($hostname,$username,$password,$database);
@@ -324,7 +324,7 @@ function mychecklogin(){
 	$email = stripslashes($email);
 	$password = stripslashes($password);
 	//echo $password;
-	$sql="SELECT `name`, `email` FROM user WHERE email='$email' and password_a='$password'";
+	$sql="SELECT `email`, `name` FROM user WHERE email='$email' and password_a='$password'";
 	$result=mysqli_query($con,$sql);	
 	// Mysql_num_row is counting table row
 	$count=mysqli_num_rows($result);
@@ -334,7 +334,6 @@ function mychecklogin(){
 	{
 		$row=mysqli_fetch_assoc($result);
 		$_SESSION['email'] =$row['email'];
-		//echo $row['name'];
 		$_SESSION['name']=$row['name'];
 		// Register $myusername, $mypassword and redirect to file "login_success.php
 		header("Location:index.php");
@@ -385,7 +384,7 @@ function mydeletecart(){
 function myorders(){
 	$hostname="localhost"; 
 	$username="root"; 
-	$password=""; 
+	$password="boom"; 
 	$database="boom";
 	$email=$_SESSION['email'];
 	$con=mysqli_connect($hostname,$username,$password,$database);
@@ -458,7 +457,7 @@ function myplaceorder(){
 function mychecksignin(){
 	$hostname="localhost"; 
 	$username="root"; 
-	$password=""; 
+	$password="boom"; 
 	$database="boom";
 	  
 	$con=mysqli_connect($hostname,$username,$password,$database);
@@ -471,7 +470,7 @@ function mychecksignin(){
 	$password=$_REQUEST['password']; 
 	$password=md5($password);
 	
-	$sql="INSERT INTO `user`(`name`, `email`, `password_a`) VALUES ('$name', '$email', '$password')";
+	$sql="INSERT INTO `user`(`email`, `password_a`, `name`) VALUES ('$email', '$password', '$name')";
 	$result=mysqli_query($con,$sql);
 	if($result){
 		header("Location:index.php");

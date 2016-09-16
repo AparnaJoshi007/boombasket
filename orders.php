@@ -103,7 +103,7 @@ include 'allfunctions.php';
         <?php
  $hostname="localhost"; 
   $username="root"; 
-  $password=""; 
+  $password="boom"; 
   $database="boom";
   $email=$_SESSION['email'];
   $con=mysqli_connect($hostname,$username,$password,$database);
